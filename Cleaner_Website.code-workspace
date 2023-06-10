@@ -1,0 +1,21 @@
+{
+  "folders": [
+	{
+		"name": "Cleaner_Website",
+		"path": "."
+	}
+],
+  "settings": {
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "diffEditor.codeLens": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "prettier.bracketSameLine": true,
+    "typescript.format.enable": false,
+    "scss.format.enable": false,
+    "less.format.enable": false
+  }
+}

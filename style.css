@@ -265,29 +265,6 @@ textarea.input-control {
   opacity: 0;
   transition: opacity 10s ease;
 }
-
-/* .preloader div{
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  border-left: 4px solid var(--main-color);
-  border-right: 4px solid var(--main-color);
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-  animation: preloader 1s linear infinite;
-} */
-
-
-
-/* @keyframes preloader{
-  0%{
-    transform: rotate(0);
-  }
-  100%{
-    transform: rotate(360deg);
-  }
-} */
-
 .loader{
   display: grid;
   place-items: center;
@@ -549,7 +526,7 @@ textarea.input-control {
   grid-column: span 4;
   background-color: var(--bg-color);
   box-shadow: var(--shadow);
-  border: 1px solid var(--border-color);
+  border: inset 0 0 15 var(--border-color);
   padding: 30px;
   border-radius: 10px;
   text-align: center;
