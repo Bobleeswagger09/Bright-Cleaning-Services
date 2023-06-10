@@ -982,6 +982,9 @@ textarea.input-control {
 }
   /* media queries for small devices */
 @media (max-width: 315px) {
+  h2{
+    font-weight: 600;
+  }
   .container{
     padding: 0 26;
     margin: auto;
@@ -1019,7 +1022,8 @@ textarea.input-control {
 
 
   .home-text h1{
-    font-size: 20px;
+    font-size: 29px;
+    font-weight: bold;
   }
 
   .social-links{
