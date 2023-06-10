@@ -38,7 +38,7 @@ const navigation = () => {
 
   navToggler.addEventListener("click", navToggle);
 
-  navItems.forEach.forEach((li) => {
+  navItems.forEach((li) => {
     li.querySelector("a").addEventListener("click", () => {
       if (window.innerWidth <= 767) {
         navToggle();
