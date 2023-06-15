@@ -734,6 +734,10 @@ textarea.input-control {
 
 /* responsiveness */
 @media (max-width: 1024px) {
+  .header{
+    width: 100%;
+    height: 7%;
+  }
 
   .container {
     padding: 0 72px;
@@ -1004,7 +1008,23 @@ textarea.input-control {
 
 }
   /* media queries for small devices */
-@media (max-width: 315px) {
+@media (max-width: 320px) {
+  .header::before{
+    width: 100%;
+    height: 150%;
+  }
+
+  .style-switcher{
+    width: 207px;
+    height: 100%;
+  }
+
+  .style-switcher-main{
+    height: 100%;
+    padding: 28px;
+    overflow: auto;
+  }
+
   h2{
     font-weight: 600;
   }
