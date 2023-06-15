@@ -334,6 +334,7 @@ textarea.input-control {
 }
 
 .header .container {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -749,7 +750,7 @@ textarea.input-control {
     left: 50%;
   }
 
-  .prcing-item{
+  .pricing-item{
     border: 1px solid var(--border-color);
   }
 
@@ -786,6 +787,7 @@ textarea.input-control {
 
   /* pricing  */
   .pricing-item {
+    width: 90%;
     grid-column: span 6;
   }
 
@@ -952,7 +954,14 @@ textarea.input-control {
 }
 
 @media (max-width: 575px) {
+  h1,h2{
+    font-size: 2rem;
+    font-weight: 600;
+  }
 
+  p{
+    font-size: 17px;
+  }
   /* grid */
   .grid {
     gap: 30px 15px;
@@ -1009,6 +1018,11 @@ textarea.input-control {
 }
   /* media queries for small devices */
 @media (max-width: 320px) {
+  
+  h1,h2{
+    font-size: 2rem;
+    font-weight: 600;
+  }
   .header::before{
     width: 100%;
     height: 150%;
@@ -1023,10 +1037,6 @@ textarea.input-control {
     height: 100%;
     padding: 28px;
     overflow: auto;
-  }
-
-  h2{
-    font-weight: 600;
   }
   .container{
     padding: 0 26;
@@ -1075,6 +1085,14 @@ textarea.input-control {
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
     padding: 12px;
+  }
+
+  .pricing-item{
+    position: relative;
+    top: 0;
+    left: 32px;
+    width: 80%;
+    padding-bottom: 0;
   }
   
 }
