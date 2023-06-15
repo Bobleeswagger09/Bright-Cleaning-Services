@@ -955,12 +955,13 @@ textarea.input-control {
 
 @media (max-width: 575px) {
   h1,h2{
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 500;
   }
 
   p{
-    font-size: 17px;
+    padding: 0 10px;
+    font-size: 15px;
   }
   /* grid */
   .grid {
